@@ -20,11 +20,10 @@ class RegistrationPage(BasePage):
             'password_error': '//div[@id="advice-validate-cpassword-confirmation"]'
         }
 
-
-
+    @property
     def is_password_validation_error(self):
         try:
-            self.find_element(self.error_locators['password'])
+            self.find_element('password_error')
         except NoSuchElementException:
             return False
         else:
