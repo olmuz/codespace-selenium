@@ -10,13 +10,14 @@ class TestLogin(unittest.TestCase):
         cls.browser = webdriver.Chrome()
         cls.browser.implicitly_wait(2)
 
-    def test_login_with_incorrect_password(self):
+    def setUp(self):
         LoginPage(self.browser).open()
+
+    def test_login_with_incorrect_password(self):
         LoginPage(self.browser).login('s1iderorama@gmail.com', 'codesace')
         self.assertIn('Customer Login', self.browser.title)
 
     def test_forgot_password(self):
-        LoginPage(self.browser).open()
         LoginPage(self.browser).forgot_account()
         self.assertIn('Forgot Your Password', self.browser.title)
 
