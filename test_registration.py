@@ -25,10 +25,7 @@ class TestRegistration(unittest.TestCase):
 
         for field, value in reg_data.items():
             page.find_element(field).send_keys(value)
+        page.find_element('newsletter_chbx').click()
         page.find_element('register_btn').click()
 
-        self.assertEqual()
-
-
-
-
+        self.assertTrue(page.is_password_validation_error)
