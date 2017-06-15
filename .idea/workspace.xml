@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fc90aec1-c4c8-4c97-9b5e-793cc6d4e69b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reg_page.py" afterPath="$PROJECT_DIR$/reg_page.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_registration.py" afterPath="$PROJECT_DIR$/test_registration.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_registration.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_registration.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_registration.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="102">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -52,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reg_page.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reg_page.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reg_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+            <state relative-caret-position="900">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -103,8 +102,8 @@
         <option value="$PROJECT_DIR$/selenium1.py" />
         <option value="$PROJECT_DIR$/login_page.py" />
         <option value="$PROJECT_DIR$/selenium2.py" />
-        <option value="$PROJECT_DIR$/test_registration.py" />
         <option value="$PROJECT_DIR$/reg_page.py" />
+        <option value="$PROJECT_DIR$/test_registration.py" />
       </list>
     </option>
   </component>
@@ -342,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497550809985</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="overrided open() for reg_page">
+      <created>1497552831168</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1497552831168</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -419,7 +425,8 @@
     <MESSAGE value="extracted LoginPage().open() to setUp()" />
     <MESSAGE value="updates" />
     <MESSAGE value="fix for password_error" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix for password_error" />
+    <MESSAGE value="overrided open() for reg_page" />
+    <option name="LAST_COMMIT_MESSAGE" value="overrided open() for reg_page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -554,22 +561,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_registration.py">
+    <entry file="file://$PROJECT_DIR$/reg_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="900">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reg_page.py">
+    <entry file="file://$PROJECT_DIR$/test_registration.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+        <state relative-caret-position="102">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
