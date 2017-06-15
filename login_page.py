@@ -1,16 +1,17 @@
 from base_page import BasePage
-from selenium.webdriver.common.by import By
 
 
 class LoginPage(BasePage):
     def __init__(self, browser):
+        # super() calls parent methods
         super(LoginPage, self).__init__(browser)
-        self.url = 'http://facebook.com'
+        self.url = 'http://magento-demo.lexiconn.com/customer/account/login/'
+        # locators mappings (css)
         self.locators = {
-            'email': 'input#email',
-            'password': 'input#pass',
-            'login_btn': 'input[type=submit]',
-            'forgot_lnk': 'a[data-testid=forgot_account_link]'
+            'email': '//input[@name="login[username]"]',
+            'password': '//input[@name="login[password]"]',
+            'login_btn': '//button[@type="submit"]',
+            'forgot_lnk': '//a[contains(text(), "Forgot Your Password?")]'
         }
 
     def login(self, email, pwd):

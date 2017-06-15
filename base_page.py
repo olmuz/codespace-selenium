@@ -8,4 +8,4 @@ class BasePage(object):
         self.browser.get(self.url)
 
     def find_element(self, name):
-        return self.browser.find_element_by_css_selector(self.locators[name])
+        return self.browser.find_element_by_xpath(self.locators[name])
