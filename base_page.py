@@ -1,5 +1,10 @@
+import yaml
+
+
 class BasePage(object):
     def __init__(self, browser):
+        self.settings = yaml.load(open('settings.yaml'))
+
         self.browser = browser
         self.url = None
         self.locators = {}

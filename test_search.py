@@ -1,4 +1,6 @@
 import unittest
+
+import yaml
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
 
@@ -6,13 +8,15 @@ from login_page import LoginPage
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+from product import Product
 
 
 class TestSearch(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
+        cls.settings = yaml.load(open('settings.yaml'))
         cls.browser = webdriver.Chrome()
-        cls.browser.implicitly_wait(1)
+        cls.browser.implicitly_wait(cls.settings['implicit_timeout'])
 
     def test_search(self):
         page = LoginPage(self.browser)
@@ -20,7 +24,8 @@ class TestSearch(unittest.TestCase):
         page.search('shoes')
 
         #explicitly wait example
-        wait = WebDriverWait(self.browser, 10)
+        timeout = self.settings['explicit_timeout']
+        wait = WebDriverWait(self.browser, timeout)
         try:
             options = wait.until(
                 EC.visibility_of_all_elements_located(
@@ -28,3 +33,5 @@ class TestSearch(unittest.TestCase):
         except TimeoutException:
             pass
         options[0].click()
+
+        self.assertTrue(Product(self.browser, 'Black Nolita1 Cami').is_visible)

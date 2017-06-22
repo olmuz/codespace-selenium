@@ -1,4 +1,6 @@
 import unittest
+
+import yaml
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
@@ -13,6 +15,7 @@ class TestLogin(unittest.TestCase):
     def setUpClass(cls):
         cls.browser = webdriver.Chrome()
         cls.browser.implicitly_wait(0)
+        cls.settings = yaml.load(open('settings.yaml'))
 
     def setUp(self):
         LoginPage(self.browser).open()

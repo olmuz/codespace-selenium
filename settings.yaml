@@ -1,0 +1,8 @@
+base_url: http://magento-demo.lexiconn.com
+
+implicit_timeout: 1
+explicit_timeout: 10
+
+credentials:
+  login: 's1iderorama@gmail.com'
+  pwd: '123123'

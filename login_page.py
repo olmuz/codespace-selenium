@@ -1,11 +1,14 @@
 from base_page import BasePage
+import yaml
 
 
 class LoginPage(BasePage):
     def __init__(self, browser):
         # super() calls parent methods
         super(LoginPage, self).__init__(browser)
-        self.url = 'http://magento-demo.lexiconn.com/customer/account/login/'
+
+        base_url = self.settings['base_url']
+        self.url = base_url + '/customer/account/login/'
         # locators mappings (css)
         self.locators = {
             'email': '//input[@name="login[username]"]',
