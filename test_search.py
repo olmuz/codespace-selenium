@@ -9,6 +9,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from product import Product
+from link import Link
 
 
 class TestSearch(unittest.TestCase):
@@ -34,4 +35,12 @@ class TestSearch(unittest.TestCase):
             pass
         options[0].click()
 
-        self.assertTrue(Product(self.browser, 'Black Nolita1 Cami').is_visible)
+        self.assertTrue(Product(self.browser, 'Black Nolita Cami').is_visible)
+
+    def test_navigation(self):
+        LoginPage(self.browser).open()
+        Link(self.browser, 'Accessories').hover()
+        Link(self.browser, 'Shoes').click()
+
+        self.assertTrue(
+            Product(self.browser, 'Ann Ankle Boot').is_visible)
