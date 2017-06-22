@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc90aec1-c4c8-4c97-9b5e-793cc6d4e69b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_search.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_registration.py" afterPath="$PROJECT_DIR$/test_registration.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base_page.py" afterPath="$PROJECT_DIR$/base_page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login_page.py" afterPath="$PROJECT_DIR$/login_page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/selenium2.py" afterPath="$PROJECT_DIR$/selenium2.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,8 +33,22 @@
       <file leaf-file-name="selenium2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/selenium2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="37" />
+            <state relative-caret-position="475">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#884#1083#0" expanded="false" />
+                <element signature="e#1120#1500#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_registration.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_registration.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -39,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_registration.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_registration.py">
+      <file leaf-file-name="test_search.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="505">
+              <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -54,8 +71,8 @@
       <file leaf-file-name="reg_page.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reg_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="641">
+              <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -66,8 +83,8 @@
       <file leaf-file-name="base_page.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="420">
+              <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -76,8 +93,8 @@
       <file leaf-file-name="login_page.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="360">
+              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -98,12 +115,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/base_page.py" />
         <option value="$PROJECT_DIR$/selenium1.py" />
-        <option value="$PROJECT_DIR$/login_page.py" />
-        <option value="$PROJECT_DIR$/selenium2.py" />
         <option value="$PROJECT_DIR$/reg_page.py" />
+        <option value="$PROJECT_DIR$/selenium2.py" />
         <option value="$PROJECT_DIR$/test_registration.py" />
+        <option value="$PROJECT_DIR$/base_page.py" />
+        <option value="$PROJECT_DIR$/login_page.py" />
+        <option value="$PROJECT_DIR$/test_search.py" />
       </list>
     </option>
   </component>
@@ -145,52 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_registration.py">
-    <configuration default="false" name="Unittests for selenium2.TestLogin.test_login_with_incorrect_password" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="codespace" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;selenium2.TestLogin.test_login_with_incorrect_password&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in selenium2.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="codespace" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/selenium2.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests for test_registration.TestRegistration.test_registration_with_different_passwords" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="codespace" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_registration.TestRegistration.test_registration_with_different_passwords&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for test_search.TestSearch.test_search">
     <configuration default="false" name="Unittests for test_registration.TestRegistration" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -219,6 +192,51 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test_registration.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests for selenium2.TestLogin.test_search" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="codespace" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;selenium2.TestLogin.test_search&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests for selenium2.TestLogin.test_hover" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="codespace" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;selenium2.TestLogin.test_hover&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests for test_search.TestSearch.test_search" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="codespace" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_search.TestSearch.test_search&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -286,19 +304,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for selenium2.TestLogin.test_login_with_incorrect_password" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in selenium2.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_registration.TestRegistration.test_registration_with_different_passwords" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_registration.TestRegistration" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_registration.py" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_registration.TestRegistration" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_registration.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for selenium2.TestLogin.test_search" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for selenium2.TestLogin.test_hover" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_search.TestSearch.test_search" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_registration.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_registration.TestRegistration" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_registration.TestRegistration.test_registration_with_different_passwords" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in selenium2.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for selenium2.TestLogin.test_login_with_incorrect_password" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_search.TestSearch.test_search" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for selenium2.TestLogin.test_hover" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for selenium2.TestLogin.test_search" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_registration.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_registration.TestRegistration" />
       </list>
     </recent_temporary>
   </component>
@@ -348,39 +366,46 @@
       <option name="project" value="LOCAL" />
       <updated>1497552831168</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="with homework">
+      <created>1497553346296</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1497553346296</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_registration_TestRegistration - 2017.06.15 at 21h 36m 56s.xml">
-      <configuration name="Unittests for test_registration.TestRegistration" configurationId="tests" />
+    <history-entry file="Unittests_for_selenium2_TestLogin_test_hover - 2017.06.22 at 18h 14m 34s.xml">
+      <configuration name="Unittests for selenium2.TestLogin.test_hover" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_registration_TestRegistration_test_registration_with_different_passwords - 2017.06.15 at 21h 22m 21s.xml">
-      <configuration name="Unittests for test_registration.TestRegistration.test_registration_with_different_passwords" configurationId="tests" />
+    <history-entry file="Unittests_for_selenium2_TestLogin_test_hover - 2017.06.22 at 18h 14m 47s.xml">
+      <configuration name="Unittests for selenium2.TestLogin.test_hover" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_selenium2_py - 2017.06.15 at 19h 50m 16s.xml">
-      <configuration name="Unittests in selenium2.py" configurationId="tests" />
+    <history-entry file="Unittests_for_selenium2_TestLogin_test_hover - 2017.06.22 at 18h 15m 23s.xml">
+      <configuration name="Unittests for selenium2.TestLogin.test_hover" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_selenium2_py - 2017.06.15 at 19h 51m 39s.xml">
-      <configuration name="Unittests in selenium2.py" configurationId="tests" />
+    <history-entry file="Unittests_for_selenium2_TestLogin_test_search - 2017.06.22 at 17h 51m 38s.xml">
+      <configuration name="Unittests for selenium2.TestLogin.test_search" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_selenium2_py - 2017.06.15 at 19h 52m 49s.xml">
-      <configuration name="Unittests in selenium2.py" configurationId="tests" />
+    <history-entry file="Unittests_for_selenium2_TestLogin_test_search - 2017.06.22 at 17h 51m 57s.xml">
+      <configuration name="Unittests for selenium2.TestLogin.test_search" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_selenium2_py - 2017.06.15 at 19h 53m 20s.xml">
-      <configuration name="Unittests in selenium2.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_search_TestSearch_test_search - 2017.06.22 at 19h 36m 42s.xml">
+      <configuration name="Unittests for test_search.TestSearch.test_search" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_selenium2_py - 2017.06.15 at 19h 57m 22s.xml">
-      <configuration name="Unittests in selenium2.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_search_TestSearch_test_search - 2017.06.22 at 19h 39m 47s.xml">
+      <configuration name="Unittests for test_search.TestSearch.test_search" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_selenium2_py - 2017.06.15 at 19h 58m 25s.xml">
-      <configuration name="Unittests in selenium2.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_search_TestSearch_test_search - 2017.06.22 at 19h 40m 44s.xml">
+      <configuration name="Unittests for test_search.TestSearch.test_search" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_selenium2_py - 2017.06.15 at 20h 23m 56s.xml">
-      <configuration name="Unittests in selenium2.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_search_TestSearch_test_search - 2017.06.22 at 19h 49m 08s.xml">
+      <configuration name="Unittests for test_search.TestSearch.test_search" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_registration_py - 2017.06.15 at 21h 53m 07s.xml">
-      <configuration name="Unittests in test_registration.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_search_TestSearch_test_search - 2017.06.22 at 19h 53m 02s.xml">
+      <configuration name="Unittests for test_search.TestSearch.test_search" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -390,7 +415,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3649635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24710831" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20715037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -426,7 +451,8 @@
     <MESSAGE value="updates" />
     <MESSAGE value="fix for password_error" />
     <MESSAGE value="overrided open() for reg_page" />
-    <option name="LAST_COMMIT_MESSAGE" value="overrided open() for reg_page" />
+    <MESSAGE value="with homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="with homework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -465,6 +491,8 @@
           <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#884#1083#0" expanded="false" />
+            <element signature="e#1120#1500#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -501,6 +529,8 @@
           <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="18" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#884#1083#0" expanded="false" />
+            <element signature="e#1120#1500#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -537,44 +567,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/selenium2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="37" />
+        <state relative-caret-position="475">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#884#1083#0" expanded="false" />
+            <element signature="e#1120#1500#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_registration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reg_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="641">
+          <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_registration.py">
+    <entry file="file://$PROJECT_DIR$/login_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

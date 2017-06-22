@@ -11,7 +11,11 @@ class LoginPage(BasePage):
             'email': '//input[@name="login[username]"]',
             'password': '//input[@name="login[password]"]',
             'login_btn': '//button[@type="submit"]',
-            'forgot_lnk': '//a[contains(text(), "Forgot Your Password?")]'
+            'forgot_lnk': '//a[contains(text(), "Forgot Your Password?")]',
+
+            # search
+            'search_input': '//input[@id="search"]',
+            'search_results': '//div[@id="search_autocomplete"]/ul/li[@title]',
         }
 
     def login(self, email, pwd):
@@ -26,3 +30,5 @@ class LoginPage(BasePage):
     def forgot_account(self):
         self.find_element('forgot_lnk').click()
 
+    def search(self, query):
+        self.find_element('search_input').send_keys(query)
