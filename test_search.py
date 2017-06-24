@@ -8,8 +8,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
 from link import Link
-from product import Product
 from support.pages.login_page import LoginPage
+from support.ui.product import Product
 
 
 class TestSearch(unittest.TestCase):
