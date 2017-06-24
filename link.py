@@ -14,14 +14,4 @@ class Link():
     def click(self):
         self.element.click()
 
-    def hover(self):
-        # ActionChains is used for Drag&Drop and mouse hovering
-        ac = ActionChains(self.browser)
-        ac.move_to_element(self.element)
-        ac.perform()
 
-    def hover_and_click(self):
-        ac = ActionChains(self.browser)
-        ac.move_to_element(self.element)
-        ac.click()
-        ac.perform()

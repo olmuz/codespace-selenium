@@ -3,13 +3,13 @@ import unittest
 import yaml
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
-
-from login_page import LoginPage
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-from product import Product
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+
 from link import Link
+from product import Product
+from support.pages.login_page import LoginPage
 
 
 class TestSearch(unittest.TestCase):

@@ -1,7 +1,9 @@
 import unittest
+
 from selenium import webdriver
+
 from link import Link
-from login_page import LoginPage
+from support.pages.login_page import LoginPage
 
 
 class TestFooter(unittest.TestCase):

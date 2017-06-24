@@ -1,7 +1,9 @@
 import unittest
-from selenium import webdriver
-from reg_page import RegistrationPage
 from random import randint
+
+from selenium import webdriver
+
+from support.pages.reg_page import RegistrationPage
 
 
 class TestRegistration(unittest.TestCase):

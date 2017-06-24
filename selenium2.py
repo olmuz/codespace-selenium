@@ -4,9 +4,10 @@ import yaml
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from login_page import LoginPage
+from selenium.webdriver.support.ui import WebDriverWait
+
+from support.pages.login_page import LoginPage
 
 
 class TestLogin(unittest.TestCase):

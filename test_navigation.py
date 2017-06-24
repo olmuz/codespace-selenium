@@ -1,8 +1,10 @@
 import unittest
+
 from selenium import webdriver
-from link import Link
+
 from header import Header
-from login_page import LoginPage
+from link import Link
+from support.pages.login_page import LoginPage
 
 
 class TestFooter(unittest.TestCase):
@@ -14,14 +16,17 @@ class TestFooter(unittest.TestCase):
         links = (
             # MEN
             'New Arrivals',
-            '...',
+            'Shirts',
+            'Blazers'
             # WOMEN
         )
 
         LoginPage(self.browser).open()
         for link in links:
-            hover()
-            click()
-            self.assertEqual(Header(self.browser).is_visible))
+            Link(self.browser, 'Men').hover()
+            Link(self.browser, link).click()
+            self.assertTrue(Header(self.browser, link).is_visible)
+            self.assertIn(link, self.browser.title)
 
 
+_
