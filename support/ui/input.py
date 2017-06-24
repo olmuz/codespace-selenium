@@ -8,6 +8,14 @@ class Input(BaseElement):
             'label': '//label[. = "{}"]/following-sibling::div/input',
             'id'   : '//input[@id = "{}"]'
         }[method].format(name)
+
+        # if method == 'name':
+        #     locator = '//input[@name = "{}"]'
+        # elif method == 'label':
+        #     locator = '//label[. = "{}"]/following-sibling::div/input'
+        # ...
+        # think about alternative - dict
+
         super(Input, self).__init__(browser, locator)
 
     def fill(self, text):
