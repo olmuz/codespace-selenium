@@ -4,7 +4,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-class BaseElement:
+class BaseElement(object):
     def __init__(self, browser, locator):
         self.browser = browser
         self.locator = locator

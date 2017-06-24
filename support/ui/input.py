@@ -5,7 +5,7 @@ class Input(BaseElement):
     def __init__(self, browser, name, method='label'):
         locator = {
             'name' : '//input[@name = "{}"]',
-            'label': '//label[. = "{}"]/following-sibling::div/input',
+            'label': '//label[contains(., "{}")]/following-sibling::div/input',
             'id'   : '//input[@id = "{}"]'
         }[method].format(name)
 

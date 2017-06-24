@@ -13,7 +13,7 @@ class LoginPage(BasePage):
         self.locators = {
             'email': '//input[@name="login[username]"]',
             'password': '//input[@name="login[password]"]',
-            'login_btn': '//button[@type="submit"]',
+            'login_btn': '//button[@name="send"]',
             'forgot_lnk': '//a[contains(text(), "Forgot Your Password?")]',
 
             # search
