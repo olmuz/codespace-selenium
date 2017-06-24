@@ -23,7 +23,15 @@ class TestAddressBook(unittest.TestCase):
         Button(self.browser, 'Add New Address').click()
 
         #3 fill form
-        Input(self.browser, 'First Name').fill('Robot')
-        Input(self.browser, 'Last Name').fill('Bobot')
+        test_data = {
+            'First Name': 'Robot',
+            'Last Name' : 'Bobot',
+            'Company'   : 'Robotics Inc',
+            'Telephone' : '123123123',
+            'Fax'       : '123123412',
+            # address
+            'Street address': 'Robo circle 1',
+        }
+        for label, text in test_data.items():
+            Input(self.browser, label).fill(text)
 
-        assert False
