@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc90aec1-c4c8-4c97-9b5e-793cc6d4e69b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/support/ui/checkbox.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/support/ui/select.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_address_book.py" afterPath="$PROJECT_DIR$/test_address_book.py" />
     </list>
@@ -15,16 +17,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base_page.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/support/pages/base_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="base_element.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/support/ui/base_element.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -40,8 +32,28 @@
       <file leaf-file-name="Button.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/support/ui/Button.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="select.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/support/ui/select.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkbox.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/support/ui/checkbox.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -70,8 +82,8 @@
       <file leaf-file-name="input.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/support/ui/input.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            <state relative-caret-position="240">
+              <caret line="8" column="42" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="8" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -80,7 +92,7 @@
       <file leaf-file-name="login_page.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/support/pages/login_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
+            <state relative-caret-position="-193">
               <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
@@ -92,8 +104,8 @@
       <file leaf-file-name="test_address_book.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_address_book.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="32" column="46" lean-forward="false" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+            <state relative-caret-position="539">
+              <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -101,24 +113,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_footer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_footer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/support/ui/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,6 +157,8 @@
         <option value="$PROJECT_DIR$/support/pages/login_page.py" />
         <option value="$PROJECT_DIR$/support/ui/Button.py" />
         <option value="$PROJECT_DIR$/support/ui/input.py" />
+        <option value="$PROJECT_DIR$/support/ui/checkbox.py" />
+        <option value="$PROJECT_DIR$/support/ui/select.py" />
         <option value="$PROJECT_DIR$/test_address_book.py" />
       </list>
     </option>
@@ -465,13 +467,17 @@
       <option name="project" value="LOCAL" />
       <updated>1498298336151</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added test data">
+      <created>1498298701963</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1498298701963</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_address_book_TestAddressBook_test_add_new_address - 2017.06.24 at 12h 41m 23s.xml">
-      <configuration name="Unittests for test_address_book.TestAddressBook.test_add_new_address" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_address_book_TestAddressBook_test_add_new_address - 2017.06.24 at 12h 42m 47s.xml">
       <configuration name="Unittests for test_address_book.TestAddressBook.test_add_new_address" configurationId="tests" />
     </history-entry>
@@ -490,14 +496,17 @@
     <history-entry file="Unittests_for_test_address_book_TestAddressBook_test_add_new_address - 2017.06.24 at 12h 57m 20s.xml">
       <configuration name="Unittests for test_address_book.TestAddressBook.test_add_new_address" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_search_TestSearch_test_search - 2017.06.22 at 20h 36m 46s.xml">
-      <configuration name="Unittests for test_search.TestSearch.test_search" configurationId="tests" />
+    <history-entry file="Unittests_for_test_address_book_TestAddressBook_test_add_new_address - 2017.06.24 at 13h 21m 31s.xml">
+      <configuration name="Unittests for test_address_book.TestAddressBook.test_add_new_address" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_search_TestSearch_test_search - 2017.06.22 at 20h 56m 03s.xml">
-      <configuration name="Unittests for test_search.TestSearch.test_search" configurationId="tests" />
+    <history-entry file="Unittests_for_test_address_book_TestAddressBook_test_add_new_address - 2017.06.24 at 13h 22m 17s.xml">
+      <configuration name="Unittests for test_address_book.TestAddressBook.test_add_new_address" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_search_TestSearch_test_search - 2017.06.22 at 20h 56m 29s.xml">
-      <configuration name="Unittests for test_search.TestSearch.test_search" configurationId="tests" />
+    <history-entry file="Unittests_for_test_address_book_TestAddressBook_test_add_new_address - 2017.06.24 at 13h 23m 30s.xml">
+      <configuration name="Unittests for test_address_book.TestAddressBook.test_add_new_address" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_address_book_TestAddressBook_test_add_new_address - 2017.06.24 at 13h 23m 52s.xml">
+      <configuration name="Unittests for test_address_book.TestAddressBook.test_add_new_address" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -507,7 +516,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21902017" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33962265" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34097034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -551,7 +560,8 @@
     <MESSAGE value="alternative of dict structure with if-elif-elif" />
     <MESSAGE value="fixed locator for Input" />
     <MESSAGE value="added Button&#10;fixed locator for Input" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Button&#10;fixed locator for Input" />
+    <MESSAGE value="added test data" />
+    <option name="LAST_COMMIT_MESSAGE" value="added test data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -810,24 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/support/ui/link.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/support/pages/login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/support/ui/base_element.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -838,26 +830,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/support/pages/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-193">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/support/ui/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/support/ui/link.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/support/ui/input.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        <state relative-caret-position="240">
+          <caret line="8" column="42" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="8" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/support/ui/Button.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/support/ui/checkbox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/support/ui/select.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_address_book.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="32" column="46" lean-forward="false" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+        <state relative-caret-position="539">
+          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

@@ -3,8 +3,10 @@ from selenium import webdriver
 
 from support.pages.login_page import LoginPage
 from support.ui.Button import Button
+from support.ui.checkbox import Checkbox
 from support.ui.link import Link
 from support.ui.input import Input
+from support.ui.select import Select
 
 
 class TestAddressBook(unittest.TestCase):
@@ -23,15 +25,21 @@ class TestAddressBook(unittest.TestCase):
         Button(self.browser, 'Add New Address').click()
 
         #3 fill form
-        test_data = {
+        test_data_input = {
             'First Name': 'Robot',
             'Last Name' : 'Bobot',
             'Company'   : 'Robotics Inc',
             'Telephone' : '123123123',
             'Fax'       : '123123412',
             # address
-            'Street address': 'Robo circle 1',
+            'Street Address': 'Robo circle 1',
+            'City'          : 'Kiev',
+            'Zip'           : '12345'
         }
-        for label, text in test_data.items():
+
+        for label, text in test_data_input.items():
             Input(self.browser, label).fill(text)
+
+        Select(self.browser, 'Country').select_by_text('Ukraine')
+        Checkbox(self.browser, 'Use as my default billing address').click()
 
