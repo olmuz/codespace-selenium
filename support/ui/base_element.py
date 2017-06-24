@@ -1,4 +1,5 @@
 from selenium.common.exceptions import TimeoutException
+from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -28,4 +29,10 @@ class BaseElement(object):
 
     def click(self):
         self.element.click()
+
+    def hover(self):
+        ac = ActionChains(self.browser)
+        ac.move_to_element(self.element)
+        ac.perform()
+
 

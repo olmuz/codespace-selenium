@@ -2,11 +2,12 @@ import unittest
 from selenium import webdriver
 
 from support.pages.login_page import LoginPage
-from support.ui.Button import Button
+from support.ui.button import Button
 from support.ui.checkbox import Checkbox
 from support.ui.link import Link
 from support.ui.input import Input
 from support.ui.select import Select
+import support.ui
 
 
 class TestAddressBook(unittest.TestCase):
