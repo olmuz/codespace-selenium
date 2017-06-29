@@ -3,7 +3,7 @@ from base_element import BaseElement
 
 class Select(BaseElement):
     def __init__(self, browser, label):
-        locator = '//label[contains(., "{}")]/following-sibling' \
+        locator = '//label[contains(., "{}")]/following' \
                   '::div/select'.format(label)
         super(Select, self).__init__(browser, locator)
 
