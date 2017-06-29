@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc90aec1-c4c8-4c97-9b5e-793cc6d4e69b" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test_alerts.py" afterPath="$PROJECT_DIR$/test_advanced_selenium_elements.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codespace.iml" afterPath="$PROJECT_DIR$/.idea/codespace.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_alerts.py" afterPath="$PROJECT_DIR$/test_alerts.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/support/pages/__init__.py" afterPath="$PROJECT_DIR$/support/pages/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/support/pages/login_page.py" afterPath="$PROJECT_DIR$/support/pages/login_page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/support/pages/reg_page.py" afterPath="$PROJECT_DIR$/support/pages/reg_page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/support/ui/__init__.py" afterPath="$PROJECT_DIR$/support/ui/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/support/ui/button.py" afterPath="$PROJECT_DIR$/support/ui/button.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/support/ui/checkbox.py" afterPath="$PROJECT_DIR$/support/ui/checkbox.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/support/ui/input.py" afterPath="$PROJECT_DIR$/support/ui/input.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/support/ui/product.py" afterPath="$PROJECT_DIR$/support/ui/product.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/support/ui/select.py" afterPath="$PROJECT_DIR$/support/ui/select.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +26,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_purchase.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_purchase.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_purchase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="330">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -27,103 +38,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="select.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/support/ui/select.py">
+      <file leaf-file-name="test_advanced_selenium_elements.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_advanced_selenium_elements.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_alerts.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_alerts.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="80" column="28" lean-forward="true" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
+            <state relative-caret-position="-267">
+              <caret line="64" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_element.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/support/ui/base_element.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login_page.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/support/pages/login_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
-              <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="link.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/support/ui/link.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="button.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/support/ui/button.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/support/pages/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_address_book.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_address_book.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-240">
-              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/support/ui/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,28 +79,31 @@
         <option value="$PROJECT_DIR$/test_footer.py" />
         <option value="$PROJECT_DIR$/support/ui/link.py" />
         <option value="$PROJECT_DIR$/support/ui/header.py" />
-        <option value="$PROJECT_DIR$/support/pages/login_page.py" />
         <option value="$PROJECT_DIR$/support/ui/Button.py" />
-        <option value="$PROJECT_DIR$/support/ui/input.py" />
-        <option value="$PROJECT_DIR$/support/ui/checkbox.py" />
         <option value="$PROJECT_DIR$/.idea/test_purchase.py" />
-        <option value="$PROJECT_DIR$/support/ui/product.py" />
         <option value="$PROJECT_DIR$/test_address_book.py" />
-        <option value="$PROJECT_DIR$/support/pages/__init__.py" />
-        <option value="$PROJECT_DIR$/support/ui/__init__.py" />
         <option value="$PROJECT_DIR$/test_purchase.py" />
         <option value="$PROJECT_DIR$/link.py" />
         <option value="$PROJECT_DIR$/support/ui/base_element.py" />
-        <option value="$PROJECT_DIR$/support/ui/select.py" />
         <option value="$PROJECT_DIR$/test_alerts.py" />
+        <option value="$PROJECT_DIR$/test_advanced_selenium_elements.py" />
+        <option value="$PROJECT_DIR$/support/ui/__init__.py" />
+        <option value="$PROJECT_DIR$/support/pages/__init__.py" />
+        <option value="$PROJECT_DIR$/support/ui/checkbox.py" />
+        <option value="$PROJECT_DIR$/support/ui/button.py" />
+        <option value="$PROJECT_DIR$/support/ui/input.py" />
+        <option value="$PROJECT_DIR$/support/ui/select.py" />
+        <option value="$PROJECT_DIR$/support/ui/product.py" />
+        <option value="$PROJECT_DIR$/support/pages/login_page.py" />
+        <option value="$PROJECT_DIR$/support/pages/reg_page.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="64" />
     <option name="y" value="-11" />
-    <option name="width" value="1337" />
-    <option name="height" value="1062" />
+    <option name="width" value="1217" />
+    <option name="height" value="972" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -226,13 +150,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codespace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codespace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="support" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codespace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codespace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="support" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -252,8 +212,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_alerts.TestAlert.test_tabs">
-    <configuration default="false" name="Unittests for test_alerts.TestAlert.test_simple_alert" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_purchase.TestPurchase.test_purchase">
+    <configuration default="false" name="Unittests for test_advanced_selenium_elements.TestAlert.test_confirmation_alert" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -264,11 +224,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="codespace" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_alerts.TestAlert.test_simple_alert&quot;" />
+      <option name="_new_target" value="&quot;test_advanced_selenium_elements.TestAlert.test_confirmation_alert&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests for test_alerts.TestAlert.test_prompt_alert" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests for test_advanced_selenium_elements.TestAlert.test_iframes" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -279,11 +239,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="codespace" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_alerts.TestAlert.test_prompt_alert&quot;" />
+      <option name="_new_target" value="&quot;test_advanced_selenium_elements.TestAlert.test_iframes&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests for test_alerts.TestAlert.test_confirmation_alert" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests for test_advanced_selenium_elements.TestAlert.test_tabs" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -294,11 +254,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="codespace" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_alerts.TestAlert.test_confirmation_alert&quot;" />
+      <option name="_new_target" value="&quot;test_advanced_selenium_elements.TestAlert.test_tabs&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests for test_alerts.TestAlert.test_iframes" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests for test_advanced_selenium_elements.TestAlert.test_drag_and_drop" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -309,11 +269,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="codespace" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_alerts.TestAlert.test_iframes&quot;" />
+      <option name="_new_target" value="&quot;test_advanced_selenium_elements.TestAlert.test_drag_and_drop&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests for test_alerts.TestAlert.test_tabs" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests for test_purchase.TestPurchase.test_purchase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -324,7 +284,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="codespace" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_alerts.TestAlert.test_tabs&quot;" />
+      <option name="_new_target" value="&quot;test_purchase.TestPurchase.test_purchase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
@@ -393,19 +353,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_alerts.TestAlert.test_simple_alert" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_alerts.TestAlert.test_prompt_alert" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_alerts.TestAlert.test_confirmation_alert" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_alerts.TestAlert.test_iframes" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_alerts.TestAlert.test_tabs" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_advanced_selenium_elements.TestAlert.test_confirmation_alert" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_advanced_selenium_elements.TestAlert.test_iframes" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_advanced_selenium_elements.TestAlert.test_tabs" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_advanced_selenium_elements.TestAlert.test_drag_and_drop" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_purchase.TestPurchase.test_purchase" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_alerts.TestAlert.test_tabs" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_alerts.TestAlert.test_iframes" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_alerts.TestAlert.test_confirmation_alert" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_alerts.TestAlert.test_prompt_alert" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_alerts.TestAlert.test_simple_alert" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_purchase.TestPurchase.test_purchase" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_advanced_selenium_elements.TestAlert.test_confirmation_alert" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_advanced_selenium_elements.TestAlert.test_drag_and_drop" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_advanced_selenium_elements.TestAlert.test_tabs" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_advanced_selenium_elements.TestAlert.test_iframes" />
       </list>
     </recent_temporary>
   </component>
@@ -553,54 +513,61 @@
       <option name="project" value="LOCAL" />
       <updated>1498754884210</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added example with Tabs and switch_to.window">
+      <created>1498755998138</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1498755998138</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_alerts_TestAlert_test_iframes - 2017.06.29 at 19h 40m 56s.xml">
-      <configuration name="Unittests for test_alerts.TestAlert.test_iframes" configurationId="tests" />
+    <history-entry file="Unittests_for_test_advanced_selenium_elements_TestAlert_test_confirmation_alert - 2017.06.29 at 20h 27m 23s.xml">
+      <configuration name="Unittests for test_advanced_selenium_elements.TestAlert.test_confirmation_alert" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_alerts_TestAlert_test_iframes - 2017.06.29 at 19h 44m 35s.xml">
-      <configuration name="Unittests for test_alerts.TestAlert.test_iframes" configurationId="tests" />
+    <history-entry file="Unittests_for_test_advanced_selenium_elements_TestAlert_test_confirmation_alert - 2017.06.29 at 20h 27m 55s.xml">
+      <configuration name="Unittests for test_advanced_selenium_elements.TestAlert.test_confirmation_alert" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_alerts_TestAlert_test_iframes - 2017.06.29 at 19h 45m 50s.xml">
-      <configuration name="Unittests for test_alerts.TestAlert.test_iframes" configurationId="tests" />
+    <history-entry file="Unittests_for_test_advanced_selenium_elements_TestAlert_test_confirmation_alert - 2017.06.29 at 20h 28m 45s.xml">
+      <configuration name="Unittests for test_advanced_selenium_elements.TestAlert.test_confirmation_alert" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_alerts_TestAlert_test_iframes - 2017.06.29 at 19h 47m 31s.xml">
-      <configuration name="Unittests for test_alerts.TestAlert.test_iframes" configurationId="tests" />
+    <history-entry file="Unittests_for_test_advanced_selenium_elements_TestAlert_test_confirmation_alert - 2017.06.29 at 20h 29m 01s.xml">
+      <configuration name="Unittests for test_advanced_selenium_elements.TestAlert.test_confirmation_alert" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_alerts_TestAlert_test_iframes - 2017.06.29 at 19h 50m 27s.xml">
-      <configuration name="Unittests for test_alerts.TestAlert.test_iframes" configurationId="tests" />
+    <history-entry file="Unittests_for_test_advanced_selenium_elements_TestAlert_test_confirmation_alert - 2017.06.29 at 20h 29m 26s.xml">
+      <configuration name="Unittests for test_advanced_selenium_elements.TestAlert.test_confirmation_alert" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_alerts_TestAlert_test_tabs - 2017.06.29 at 19h 56m 45s.xml">
-      <configuration name="Unittests for test_alerts.TestAlert.test_tabs" configurationId="tests" />
+    <history-entry file="Unittests_for_test_advanced_selenium_elements_TestAlert_test_drag_and_drop - 2017.06.29 at 20h 19m 25s.xml">
+      <configuration name="Unittests for test_advanced_selenium_elements.TestAlert.test_drag_and_drop" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_alerts_TestAlert_test_tabs - 2017.06.29 at 20h 02m 24s.xml">
-      <configuration name="Unittests for test_alerts.TestAlert.test_tabs" configurationId="tests" />
+    <history-entry file="Unittests_for_test_advanced_selenium_elements_TestAlert_test_drag_and_drop - 2017.06.29 at 20h 19m 31s.xml">
+      <configuration name="Unittests for test_advanced_selenium_elements.TestAlert.test_drag_and_drop" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_alerts_TestAlert_test_tabs - 2017.06.29 at 20h 04m 36s.xml">
-      <configuration name="Unittests for test_alerts.TestAlert.test_tabs" configurationId="tests" />
+    <history-entry file="Unittests_for_test_advanced_selenium_elements_TestAlert_test_drag_and_drop - 2017.06.29 at 20h 19m 46s.xml">
+      <configuration name="Unittests for test_advanced_selenium_elements.TestAlert.test_drag_and_drop" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_alerts_TestAlert_test_tabs - 2017.06.29 at 20h 05m 03s.xml">
-      <configuration name="Unittests for test_alerts.TestAlert.test_tabs" configurationId="tests" />
+    <history-entry file="Unittests_for_test_advanced_selenium_elements_TestAlert_test_drag_and_drop - 2017.06.29 at 20h 26m 19s.xml">
+      <configuration name="Unittests for test_advanced_selenium_elements.TestAlert.test_drag_and_drop" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_alerts_TestAlert_test_tabs - 2017.06.29 at 20h 06m 15s.xml">
-      <configuration name="Unittests for test_alerts.TestAlert.test_tabs" configurationId="tests" />
+    <history-entry file="Unittests_for_test_purchase_TestPurchase_test_purchase - 2017.06.29 at 20h 31m 32s.xml">
+      <configuration name="Unittests for test_purchase.TestPurchase.test_purchase" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1337" height="1062" extended-state="6" />
+    <frame x="64" y="-11" width="1217" height="972" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15515904" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19161677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33943966" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40692124" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978448" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -645,7 +612,8 @@
     <MESSAGE value="prepared project for homework: test_purchase" />
     <MESSAGE value="added alerts" />
     <MESSAGE value="added iframes example" />
-    <option name="LAST_COMMIT_MESSAGE" value="added iframes example" />
+    <MESSAGE value="added example with Tabs and switch_to.window" />
+    <option name="LAST_COMMIT_MESSAGE" value="added example with Tabs and switch_to.window" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -665,7 +633,7 @@
         <state relative-caret-position="30">
           <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -701,7 +669,7 @@
         <state relative-caret-position="180">
           <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -736,6 +704,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -743,6 +712,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -759,7 +729,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="43" />
           <folding>
-            <element signature="e#0#55#0" expanded="true" />
+            <element signature="e#0#55#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -793,9 +763,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -829,9 +797,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -917,49 +883,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/support/ui/header.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/support/ui/input.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="42" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/support/ui/checkbox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/test_purchase.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/support/ui/product.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/support/pages/reg_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -979,33 +906,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/support/ui/button.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/support/pages/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/link.py" />
-    <entry file="file://$PROJECT_DIR$/support/ui/link.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_address_book.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-240">
@@ -1016,58 +917,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/support/ui/select.py">
+    <entry file="file://$PROJECT_DIR$/support/pages/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_purchase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="60">
+          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/support/ui/__init__.py">
+    <entry file="file://$PROJECT_DIR$/support/ui/checkbox.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="90">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/support/ui/button.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/support/pages/reg_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/support/pages/login_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/support/ui/link.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/support/ui/product.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/support/ui/select.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/support/ui/header.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/support/ui/input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/support/ui/base_element.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="26" />
+        <state relative-caret-position="210">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="24" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_alerts.py">
+    <entry file="file://$PROJECT_DIR$/support/ui/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="80" column="28" lean-forward="true" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
+        <state relative-caret-position="210">
+          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_advanced_selenium_elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-267">
+          <caret line="64" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_purchase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

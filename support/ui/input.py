@@ -1,4 +1,4 @@
-from base_element import BaseElement
+from .base_element import BaseElement
 
 
 class Input(BaseElement):

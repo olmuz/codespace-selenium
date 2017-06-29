@@ -84,3 +84,11 @@ class TestAlert(unittest.TestCase):
         )
         self.browser.get('http://google.com')
 
+    def test_drag_and_drop(self):
+        url = 'https://www.w3schools.com/html/html5_draganddrop.asp'
+
+        self.browser.get(url)
+        ac = ActionChains(self.browser)
+        ac.drag_and_drop(self.browser.find_element_by_id('drag1'),
+                         self.browser.find_element_by_id('div2'))
+        ac.perform()
