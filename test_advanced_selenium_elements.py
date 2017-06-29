@@ -75,6 +75,7 @@ class TestAlert(unittest.TestCase):
         ac.send_keys('T')
         ac.perform()
 
+        # switch to latest tab
         window_name = self.browser.window_handles[-1]
         self.browser.switch_to.window(window_name)
         pages.RegistrationPage(self.browser).open()
