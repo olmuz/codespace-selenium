@@ -93,3 +93,17 @@ class TestAlert(unittest.TestCase):
         ac.drag_and_drop(self.browser.find_element_by_id('drag1'),
                          self.browser.find_element_by_id('div2'))
         ac.perform()
+
+    def test_cookies(self):
+        page = pages.LoginPage(self.browser)
+        page.open()
+        page.login('s1iderorama@gmail.com', 'codespace')
+        cookies = self.browser.get_cookies()
+
+        self.browser.delete_all_cookies()
+
+        page.open()
+        print(cookies)
+        for cookie in cookies:
+            self.browser.add_cookie(cookie)
+        page.open()
