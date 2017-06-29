@@ -100,10 +100,15 @@ class TestAlert(unittest.TestCase):
         page.login('s1iderorama@gmail.com', 'codespace')
         cookies = self.browser.get_cookies()
 
+        # emulate logoff and clean session
         self.browser.delete_all_cookies()
 
+        # open login page with logged off user
         page.open()
         print(cookies)
+
         for cookie in cookies:
             self.browser.add_cookie(cookie)
+
+        sleep(5)
         page.open()

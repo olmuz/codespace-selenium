@@ -35,4 +35,11 @@ class BaseElement(object):
         ac.move_to_element(self.element)
         ac.perform()
 
+    def wait_for_element_visible(self, timeout=5):
+        return WebDriverWait(self.browser, timeout).until(
+            EC.visibility_of_element_located(
+                (By.XPATH, self.locator)
+            )
+        )
+
 

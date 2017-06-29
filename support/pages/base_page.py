@@ -1,4 +1,5 @@
 import yaml
+from selenium.webdriver.support.wait import WebDriverWait
 
 
 class BasePage(object):
@@ -19,3 +20,6 @@ class BasePage(object):
     def find_elements(self, name):
         # searches for ALL elements on page
         return self.browser.find_elements_by_xpath(self.locators[name])
+
+    def wait(self, timeout=5):
+        return WebDriverWait(self.browser, timeout)

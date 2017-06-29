@@ -5,4 +5,5 @@ from .product import Product
 from .select import Select
 from .button import Button
 from .header import Header
+from .label import Label
 from .base_element import BaseElement
