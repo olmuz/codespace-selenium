@@ -1,6 +1,7 @@
 import unittest
 
 from selenium import webdriver
+from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
@@ -64,4 +65,22 @@ class TestAlert(unittest.TestCase):
         birds = self.browser.find_element_by_css_selector('#tags')
         birds.send_keys('Python')
         birds.send_keys(Keys.ENTER)
-        self.browser.switch_to_default_content()
+
+    def test_tabs(self):
+        pages.LoginPage(self.browser).open()
+
+        # create new tab
+        ac = ActionChains(self.browser)
+        ac.send_keys(Keys.CONTROL)
+        ac.send_keys('T')
+        ac.perform()
+
+        window_name = self.browser.window_handles[-1]
+        self.browser.switch_to.window(window_name)
+        pages.RegistrationPage(self.browser).open()
+        self.browser.close()
+        self.browser.switch_to.window(
+            self.browser.window_handles[0]
+        )
+        self.browser.get('http://google.com')
+
