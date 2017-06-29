@@ -1,6 +1,9 @@
 import unittest
 
 from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+
 import support.ui as ui
 import support.pages as pages
 from selenium.webdriver.support.ui import WebDriverWait
@@ -12,6 +15,7 @@ class TestAlert(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.browser = webdriver.Chrome()
+        cls.browser.implicitly_wait(5)
 
     def test_simple_alert(self):
         # create alert with JavaScript injection
@@ -50,3 +54,14 @@ class TestAlert(unittest.TestCase):
         alert.send_keys('some text')
         sleep(2)
         self.browser.switch_to.alert.accept()
+
+    def test_iframes(self):
+        self.browser.get('http://jqueryui.com/autocomplete')
+
+        self.browser.switch_to.frame(
+            self.browser.find_element_by_css_selector('iframe.demo-frame')
+        )
+        birds = self.browser.find_element_by_css_selector('#tags')
+        birds.send_keys('Python')
+        birds.send_keys(Keys.ENTER)
+        self.browser.switch_to_default_content()

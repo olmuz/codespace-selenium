@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc90aec1-c4c8-4c97-9b5e-793cc6d4e69b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_alerts.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/support/ui/select.py" afterPath="$PROJECT_DIR$/support/ui/select.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_alerts.py" afterPath="$PROJECT_DIR$/test_alerts.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,8 +40,8 @@
       <file leaf-file-name="test_alerts.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_alerts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+            <state relative-caret-position="530">
+              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -253,37 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_alerts.TestAlert.test_prompt_alert">
-    <configuration default="false" name="Unittests for test_footer.TestFooter.test_footer_links" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="codespace" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_footer.TestFooter.test_footer_links&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests for test_address_book.TestAddressBook.test_add_new_address" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="codespace" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_address_book.TestAddressBook.test_add_new_address&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for test_alerts.TestAlert.test_iframes">
     <configuration default="false" name="Unittests for test_purchase.TestPurchase.test_purchase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -326,6 +295,36 @@
       <module name="codespace" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_alerts.TestAlert.test_prompt_alert&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests for test_alerts.TestAlert.test_confirmation_alert" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="codespace" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_alerts.TestAlert.test_confirmation_alert&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests for test_alerts.TestAlert.test_iframes" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="codespace" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_alerts.TestAlert.test_iframes&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
@@ -394,19 +393,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_footer.TestFooter.test_footer_links" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_address_book.TestAddressBook.test_add_new_address" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_purchase.TestPurchase.test_purchase" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_alerts.TestAlert.test_simple_alert" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_alerts.TestAlert.test_prompt_alert" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_purchase.TestPurchase.test_purchase" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_alerts.TestAlert.test_simple_alert" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_alerts.TestAlert.test_prompt_alert" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_alerts.TestAlert.test_confirmation_alert" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_alerts.TestAlert.test_iframes" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_alerts.TestAlert.test_prompt_alert" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_alerts.TestAlert.test_simple_alert" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_purchase.TestPurchase.test_purchase" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_address_book.TestAddressBook.test_add_new_address" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_footer.TestFooter.test_footer_links" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_alerts.TestAlert.test_iframes" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_alerts.TestAlert.test_confirmation_alert" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_alerts.TestAlert.test_prompt_alert" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_alerts.TestAlert.test_simple_alert" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_purchase.TestPurchase.test_purchase" />
       </list>
     </recent_temporary>
   </component>
@@ -540,15 +539,34 @@
       <option name="project" value="LOCAL" />
       <updated>1498302170147</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added alerts">
+      <created>1498754012987</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1498754012987</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_address_book_TestAddressBook_test_add_new_address - 2017.06.24 at 13h 23m 30s.xml">
-      <configuration name="Unittests for test_address_book.TestAddressBook.test_add_new_address" configurationId="tests" />
+    <history-entry file="Unittests_for_test_alerts_TestAlert_test_confirmation_alert - 2017.06.29 at 19h 34m 59s.xml">
+      <configuration name="Unittests for test_alerts.TestAlert.test_confirmation_alert" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_address_book_TestAddressBook_test_add_new_address - 2017.06.24 at 13h 23m 52s.xml">
-      <configuration name="Unittests for test_address_book.TestAddressBook.test_add_new_address" configurationId="tests" />
+    <history-entry file="Unittests_for_test_alerts_TestAlert_test_iframes - 2017.06.29 at 19h 39m 01s.xml">
+      <configuration name="Unittests for test_alerts.TestAlert.test_iframes" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_alerts_TestAlert_test_iframes - 2017.06.29 at 19h 40m 56s.xml">
+      <configuration name="Unittests for test_alerts.TestAlert.test_iframes" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_alerts_TestAlert_test_iframes - 2017.06.29 at 19h 44m 35s.xml">
+      <configuration name="Unittests for test_alerts.TestAlert.test_iframes" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_alerts_TestAlert_test_iframes - 2017.06.29 at 19h 45m 50s.xml">
+      <configuration name="Unittests for test_alerts.TestAlert.test_iframes" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_alerts_TestAlert_test_iframes - 2017.06.29 at 19h 47m 31s.xml">
+      <configuration name="Unittests for test_alerts.TestAlert.test_iframes" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_for_test_alerts_TestAlert_test_prompt_alert - 2017.06.29 at 19h 32m 44s.xml">
       <configuration name="Unittests for test_alerts.TestAlert.test_prompt_alert" configurationId="tests" />
@@ -561,18 +579,6 @@
     </history-entry>
     <history-entry file="Unittests_for_test_alerts_TestAlert_test_simple_alert - 2017.06.29 at 19h 28m 47s.xml">
       <configuration name="Unittests for test_alerts.TestAlert.test_simple_alert" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_purchase_TestPurchase_test_purchase - 2017.06.24 at 13h 58m 28s.xml">
-      <configuration name="Unittests for test_purchase.TestPurchase.test_purchase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_purchase_TestPurchase_test_purchase - 2017.06.24 at 13h 59m 27s.xml">
-      <configuration name="Unittests for test_purchase.TestPurchase.test_purchase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_purchase_TestPurchase_test_purchase - 2017.06.24 at 14h 00m 23s.xml">
-      <configuration name="Unittests for test_purchase.TestPurchase.test_purchase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_purchase_TestPurchase_test_purchase - 2017.06.24 at 14h 01m 51s.xml">
-      <configuration name="Unittests for test_purchase.TestPurchase.test_purchase" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -630,7 +636,8 @@
     <MESSAGE value="fill form with new classes and methods" />
     <MESSAGE value="moved Product() to support.ui&#10;added Product.select()" />
     <MESSAGE value="prepared project for homework: test_purchase" />
-    <option name="LAST_COMMIT_MESSAGE" value="prepared project for homework: test_purchase" />
+    <MESSAGE value="added alerts" />
+    <option name="LAST_COMMIT_MESSAGE" value="added alerts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1037,8 +1044,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_alerts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        <state relative-caret-position="530">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
