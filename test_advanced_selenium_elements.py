@@ -86,12 +86,13 @@ class TestAlert(unittest.TestCase):
         self.browser.get('http://google.com')
 
     def test_drag_and_drop(self):
-        url = 'https://www.w3schools.com/html/html5_draganddrop.asp'
+        url = 'http://bokuweb.github.io/react-sortable-pane/'
 
         self.browser.get(url)
+        items= self.browser.find_elements_by_css_selector('div.item')
         ac = ActionChains(self.browser)
-        ac.drag_and_drop(self.browser.find_element_by_id('drag1'),
-                         self.browser.find_element_by_id('div2'))
+        ac.drag_and_drop(items[0],
+                         items[1])
         ac.perform()
 
     def test_cookies(self):
