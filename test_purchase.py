@@ -20,14 +20,14 @@ class TestPurchase(unittest.TestCase):
                 file_content = f.read()
                 session_id, session_url = file_content.split(' ')
                 cls.browser = webdriver.Remote(command_executor=session_url,
-                                               desired_capabilities={})
+                                               desired_capabilities=webdriver.DesiredCapabilities.CHROME)
+                cls.browser.close()
                 cls.browser.session_id = session_id
         else:
-            cls.browser = webdriver.Chrome()
-            session_id = cls.browser.session_id
-            session_url = cls.browser.command_executor._url
+            cls.browser = webdriver.Remote('http://127.0.0.1:4445/wd/hub',
+                                           desired_capabilities=webdriver.DesiredCapabilities.CHROME)
             with open('browser.session', 'w') as f:
-                f.write("{} {}".format(session_id, session_url))
+                f.write("{} {}".format(cls.browser.session_id, cls.browser.command_executor._url))
         cls.browser.implicitly_wait(1)
 
         #setup logging
@@ -36,13 +36,10 @@ class TestPurchase(unittest.TestCase):
         cls.logger = logging.getLogger('tests')
 
     def test_purchase(self):
-        # 1
         self.logger.info(" logging in with cred: ")
         pages.LoginPage(self.browser).open()
         pages.LoginPage(self.browser).login('s1iderorama@gmail.com', 'codespace')
 
-        assert False
-        # 2
         self.logger.info(" navigating to Men->Blazers")
         ui.Link(self.browser, 'Men').hover()
         ui.Link(self.browser, 'Blazers').click()
@@ -61,6 +58,7 @@ class TestPurchase(unittest.TestCase):
         checkout = pages.CheckoutPage(self.browser)
         # 1 billing information
         checkout.continue_checkout()
+        assert False
 
         # 2 shipping method
         ui.Checkbox(self.browser, 'Add gift options').wait_for_element_visible().click()
