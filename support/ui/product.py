@@ -10,7 +10,7 @@ class Product(BaseElement):
         locator = ('//div[@class="product-info"]'
                     '[h2[@class="product-name"]'
                     '/a[text()="{0}"]]').format(name)
-        super(Product, self).__init__(self.browser, locator)
+        super(Product, self).__init__(browser, locator)
         self.name = name
 
     def select(self):
