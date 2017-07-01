@@ -3,15 +3,18 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import logging
 
 
 class BaseElement(object):
     def __init__(self, browser, locator):
         self.browser = browser
         self.locator = locator
+        self.logger = logging.getLogger('element')
 
     @property
     def element(self):
+        self.logger.info("searching for element: " + self.locator)
         return self.browser.find_element_by_xpath(self.locator)
 
     @property

@@ -7,10 +7,10 @@ from .base_element import BaseElement
 
 class Product(BaseElement):
     def __init__(self, browser, name):
-        self.locator = ('//div[@class="product-info"]'
-                        '[h2[@class="product-name"]'
-                        '/a[text()="{0}"]]').format(name)
-        self.browser = browser
+        locator = ('//div[@class="product-info"]'
+                    '[h2[@class="product-name"]'
+                    '/a[text()="{0}"]]').format(name)
+        super(Product, self).__init__(self.browser, locator)
         self.name = name
 
     def select(self):
