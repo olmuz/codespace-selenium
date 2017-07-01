@@ -2,6 +2,7 @@ from .base_page import BasePage
 from selenium.common.exceptions import NoSuchElementException
 
 
+
 class RegistrationPage(BasePage):
     def __init__(self, browser):
         super(RegistrationPage, self).__init__(browser)
