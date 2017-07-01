@@ -10,7 +10,8 @@ class CheckoutPage(BasePage):
         self.locators = {
             'continue': '//li[contains(@class, "section") '
                         'and contains(@class, "active")]//button',
-            'spinner' : '//span[@id="billing-please-wait"]'
+            'spinner' : '//span[@id="billing-please-wait"]',
+            'order_id': '//p[contains(., "Your order # is:")]/a'
         }
 
     def continue_checkout(self):
@@ -23,4 +24,7 @@ class CheckoutPage(BasePage):
                 (By.XPATH, self.locators['spinner'])
             )
         )
+
+    def get_order_id(self):
+        return self.find_element('order_id').text
 

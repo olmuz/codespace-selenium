@@ -25,7 +25,7 @@ class TestPurchase(unittest.TestCase):
         ui.Product(self.browser, 'Stretch Cotton Blazer').select()
 
         ui.Select(self.browser, 'Color').select_by_text('Blue')
-        ui.Select(self.browser, 'Size').select_by_text('M')
+        ui.Select(self.browser, 'Size').select_by_text('L')
         ui.Button(self.browser, 'Add to Cart').click()
 
         ui.Button(self.browser, 'Proceed to Checkout').click()
@@ -49,9 +49,14 @@ class TestPurchase(unittest.TestCase):
         checkout.continue_checkout()
 
         # 4 place order
-        ui.Button(self.browser, 'Place Order').click()
+        ui.Button(self.browser, 'Place Order').wait_for_element_visible(15).click()
 
         # 5 verify confirmation page
         self.assertTrue(
             ui.Header(self.browser, 'Your order has been received.').is_visible
         )
+
+        order_id = pages.CheckoutPage(self.browser).get_order_id()
+        pages.MyOrders(self.browser).open()
+        self.assertIn(order_id,
+                      pages.MyOrders(self.browser).get_orders())
