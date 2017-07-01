@@ -18,6 +18,10 @@ class BaseElement(object):
         return self.browser.find_element_by_xpath(self.locator)
 
     @property
+    def count(self):
+        return len(self.browser.find_elements_by_xpath(self.locator))
+
+    @property
     def is_visible(self):
         try:
             WebDriverWait(self.browser, 5).until(

@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import support.ui as ui
 import support.pages as pages
 
-REUSE = False
+REUSE = True
 
 
 class TestPurchase(unittest.TestCase):
@@ -19,7 +19,8 @@ class TestPurchase(unittest.TestCase):
             with open('browser.session') as f:
                 file_content = f.read()
                 session_id, session_url = file_content.split(' ')
-                cls.browser = webdriver.Remote(command_executor=session_url, desired_capabilities={})
+                cls.browser = webdriver.Remote(command_executor=session_url,
+                                               desired_capabilities={})
                 cls.browser.session_id = session_id
         else:
             cls.browser = webdriver.Chrome()
@@ -40,6 +41,7 @@ class TestPurchase(unittest.TestCase):
         pages.LoginPage(self.browser).open()
         pages.LoginPage(self.browser).login('s1iderorama@gmail.com', 'codespace')
 
+        assert False
         # 2
         self.logger.info(" navigating to Men->Blazers")
         ui.Link(self.browser, 'Men').hover()
@@ -48,11 +50,10 @@ class TestPurchase(unittest.TestCase):
         self.logger.info(" selecting product...")
         ui.Product(self.browser, 'Stretch Cotton Blazer').select()
 
-        ui.Select(self.browser, 'Color').select_by_text('Blue')
-        ui.Select(self.browser, 'Size').select_by_text('L')
+        ui.Select(self.browser, 'Color').select_by_index(1)
+        ui.Select(self.browser, 'Size').select_by_index(1)
         ui.Button(self.browser, 'Add to Cart').click()
 
-        assert False
         ui.Button(self.browser, 'Proceed to Checkout').click()
 
         self.assertTrue(ui.Header(self.browser, 'Checkout').is_visible)

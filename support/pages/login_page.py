@@ -1,6 +1,6 @@
 from .base_page import BasePage
 import yaml
-
+import support.ui as ui
 
 class LoginPage(BasePage):
     def __init__(self, browser):
@@ -35,3 +35,9 @@ class LoginPage(BasePage):
 
     def search(self, query):
         self.find_element('search_input').send_keys(query)
+
+    def navigate_to(self, path):
+        # Header->Link
+        header, link = path.split('->')
+        ui.Link(self.browser, header).hover()
+        ui.Link(self.browser, link).click()
