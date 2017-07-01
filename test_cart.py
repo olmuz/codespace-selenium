@@ -22,10 +22,11 @@ class TestCart(unittest.TestCase):
         #
         # ui.Button(self.browser, 'Add to Cart').click()
 
-
         cart = pages.Cart(self.browser)
         cart.open()
+
         cart.products[0].edit_qty(2)
+
         self.assertEqual(
             cart.products[0].subtotal,
             cart.products[0].price * 2

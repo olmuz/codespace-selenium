@@ -1,6 +1,7 @@
 from .base_page import BasePage
 import support.ui as ui
 
+
 class Cart(BasePage):
     def __init__(self, browser):
         super(Cart, self).__init__(browser)
@@ -31,7 +32,6 @@ class Cart(BasePage):
         #     list.append(product.price)
         #
         # [product.price for product in products]
-
 
 
 class ProductInCart(ui.BaseElement):
